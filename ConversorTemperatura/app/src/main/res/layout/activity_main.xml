@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F5F5F7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversor de Temperatura"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/editCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a temperatura em °C"
+        android:inputType="numberDecimal|numberSigned"
+        android:textColor="#090909"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnConverter"
+        android:text="Converter para Fahrenheit"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6750A4"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:text="Resultado: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_marginTop="24dp"
+        android:background="#EDE7F6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
