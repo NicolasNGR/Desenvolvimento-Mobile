@@ -1,0 +1,13 @@
+# Android Studio / Gradle
+.gradle/
+**/build/
+.idea/
+.kotlin/
+local.properties
+*.iml
+
+# Pacotes e arquivos gerados
+*.apk
+*.aab
+captures/
+.DS_Store

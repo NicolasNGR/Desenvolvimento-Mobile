@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "661233692046",
+    "project_id": "perfilfireauth",
+    "storage_bucket": "perfilfireauth.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661233692046:android:28a512972f7a4f56d188df",
+        "android_client_info": {
+          "package_name": "com.example.perfilfireauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIgbBTy98MDeHtu_HuMWYaD58Zrfs1r0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
